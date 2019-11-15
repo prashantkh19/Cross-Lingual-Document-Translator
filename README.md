@@ -25,7 +25,7 @@ So, we have m or less word translations for each source language word in the ori
 Finally, take the majority voting of all the potential translation options for each source word and hence generate the resultant word translations.  
 Limitations – Since this approach considers the word translations of each model for obtaining the resultant word translations and leaves out the probabilities of translations altogether, so we may not always get the correct result.
 It was observed that for cases where highly confident word translations are overshadowed due to greater number of considerably lower confident word translations. For example, if 15 models are trained on a corpus, and 6 of them are giving ‘huis’ as the translation of ‘house’ with a probability of around 0.8 each while 8 of them are giving ‘weg’ as the translation of ‘house’ with a probability of around 0.3 each and 1 of them gives some random translation. In this particular case, we can see that the translation of ‘house’ should be ‘huis’ but the above approach would result in ‘weg’ as the translation.  
-**Second Approach:** 
+**Second Approach:**    
 In addition to the first approach, we incorporated each and every word translation probability to get the resultant word translation, in contrast to the first approach where we just considered the word translations from the models to get the resultant translations.
 After obtaining the translation probability matrices from the models, take the average of probabilities of translation from the source word into a particular target word.
 Now, get the word translations from the average probabilities as we obtain in the IBM Model 1.
