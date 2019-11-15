@@ -31,9 +31,9 @@ After obtaining the translation probability matrices from the models, take the a
 Now, get the word translations from the average probabilities as we obtain in the IBM Model 1.
 Considering the above stated example, this approach would give the translation probability of ‘house’ to ‘huis’ to be around 0.8 in contrast to 0.3 for translation from ‘house’ to ‘weg’.
 
-#### RESULT ON A SAMPLE DATASET
+### RESULT ON A SAMPLE DATASET
 
 Sample of **Europal English-Dutuch Dataset** is used and results are noted.
-##### Result:
+#### Result:
 ![Performance](https://user-images.githubusercontent.com/27685757/68962399-7f77d680-07fa-11ea-8e35-bfda24614f8a.png)
 
