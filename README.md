@@ -1,4 +1,5 @@
-# Cross-Language-Document-Translator
+# Cross-Lingual-Document-Translator
+A Cross Lingual Document Translator is implemented using Statistical Machine Translation model. Statistical Machine Translation is an empirical machine translation technique using which translations are generated on the basis of statistical models trained on bilingual text corpora.
 
 ### IBM MODEL I
 
